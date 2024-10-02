@@ -12,7 +12,9 @@ $('#calc_btn').on('click',()=>{
 
 function divide(N1,N2){
     if(N2==0){
-       alert("you can't divide by zero") 
+    //    alert("you can't divide by zero") 
+    $('#Result ').html("you can't divide by zero");
+
     return "unknown"
     }
 return N1/N2
